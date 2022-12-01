@@ -1,0 +1,9 @@
+
+[build]
+builder = "NIXPACKS"
+buildCommand = "yarn run build"
+nixpacksConfigPath = "nixpacks.json"
+
+[deploy]
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
