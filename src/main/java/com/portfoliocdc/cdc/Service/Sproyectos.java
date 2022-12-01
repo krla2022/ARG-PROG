@@ -29,8 +29,8 @@ public class Sproyectos {
         return rproyectos.findByNombre(nombre);
     }
     
-    public void save(proyectos skill){
-        rproyectos.save(skill);
+    public void save(proyectos proyecto){
+        rproyectos.save(proyecto);
     }
     
     public void delete(int id){
